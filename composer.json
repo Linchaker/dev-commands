@@ -6,7 +6,7 @@
     "require": {
         "php": "^8.0.2",
         "illuminate/console": "^6.9|^7.0|^8.0|^9.0",
-        "doctrine/dbal": "4.0.x-dev"
+        "doctrine/dbal": "^3.3"
     },
     "require-dev": {
         "orchestra/testbench": "8.x-dev",
