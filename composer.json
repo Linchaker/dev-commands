@@ -1,0 +1,38 @@
+{
+    "name": "linchaker/dev-commands",
+    "description": "Laravel dev commands",
+    "keywords": ["laravel", "dev-commands", "laravel commands"],
+    "license": "MIT",
+    "require": {
+        "php": "^8.0.2",
+        "illuminate/console": "^6.9|^7.0|^8.0|^9.0",
+        "doctrine/dbal": "^3.3"
+    },
+    "require-dev": {
+        "orchestra/testbench": "8.x-dev",
+        "phpunit/phpunit": "^9.5.27"
+    },
+    "autoload": {
+        "psr-4": {
+            "Linchaker\\DevCommands\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Linchaker\\DevCommands\\Test\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": [
+            "vendor/bin/phpunit"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Linchaker\\DevCommands\\Providers\\DevCommandsServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev"
+}
