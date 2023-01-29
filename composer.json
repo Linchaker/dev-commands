@@ -30,7 +30,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Linchaker\\DevCommands\\Providers\\DevCommandsServiceProvider"
+                "Linchaker\\DevCommands\\Providers\\EloquentFilterServiceProvider"
             ]
         }
     },
