@@ -3,6 +3,12 @@
     "description": "Laravel dev commands",
     "keywords": ["laravel", "dev-commands", "laravel commands"],
     "license": "MIT",
+    "authors": [
+        {
+            "name": "Linchaker",
+            "homepage": "https://github.com/Linchaker"
+        }
+    ],
     "require": {
         "php": "^8.0.2",
         "illuminate/console": "^6.9|^7.0|^8.0|^9.0",
